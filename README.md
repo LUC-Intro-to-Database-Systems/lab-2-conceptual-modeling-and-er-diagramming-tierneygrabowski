@@ -54,3 +54,39 @@ Once you have completed both of the items above, you will need to submit the lin
 - [Make a ReadMe file Web-based Editor](https://www.makeareadme.com/)
 - [Draw.io Web-based diagramming tool](https://app.diagrams.net/)
 - [Creating Entity Relationship Diagrams using Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48)
+
+
+Description:
+
+**STUDENT** - A student is associated with a seat and course. A student consists of student id, student name, student address.
+
+**SEAT** – A seat is associated with a student. A seat consists of seat no, and seat position.
+
+**COURSE** – A course is associated with a student and a section. A course consists of course name and course number.
+
+**SECTION** – A section is associated with course and professor. A section consists of a section number.
+
+**PROFESSOR** – A professor is associated with a section. A professor consists of professor id, professor name, and professor faculty.
+
+**INSTRUCTOR** – A instructor is associated with a course. A instructor consists of instructor no, instructor name, and instructor faculty.
+
+Relationships:
+
+A **STUDENT** can <ins>fill</ins> one and only one **SEAT**, each **SEAT** can be <ins>filled</ins> by one and only one **STUDENT**.
+
+A **STUDENT** can <ins>take</ins> one or more **COURSE**, each **COURSE** can be <ins>taken</ins> by one and only one **STUDENT**.
+
+A **COURSE** <ins>has</ins> one or more **SECTION**, each **SECTION** <ins>has</ins> one or more course.
+
+A **PROFESSOR** can <ins>teach</ins> zero or more **SECTION**, each **SECTION** can be <ins>taught</ins> by zero or more PROFESSOR. 
+
+A **INSTRUCTOR** can <ins>teach</ins> one or more **COURSE**, each **COURSE** can be <ins>taught</ins> by one instructor. 
+
+
+
+Assumptions:
+
+Can a **COURSE** exist with zero STUDENTS? Yes
+Can a **COURSE** exist with zero STUDENTS? No
+Can a **PROFESSOR** teach zero **COURSE**? No
+![image](https://user-images.githubusercontent.com/93145401/201398380-5c740cfd-1b6b-4d8b-ac25-2806f2ecfbc2.png)
