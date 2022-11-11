@@ -4,17 +4,17 @@
 
 Description:
 
-**STUDENT** - A student is associated with a seat and course. A student consists of student id, student name, student address.
+**STUDENT**: A student is associated with a seat and course. A student consists of student id, student name, student address.
 
-**SEAT** – A seat is associated with a student. A seat consists of seat no, and seat position.
+**SEAT**: A seat is associated with a student. A seat consists of seat no, and seat position.
 
-**COURSE** – A course is associated with a student and a section. A course consists of course name and course number.
+**COURSE**: A course is associated with a student and a section. A course consists of course name and course number.
 
-**SECTION** – A section is associated with course and professor. A section consists of a section number.
+**SECTION**: A section is associated with course and professor. A section consists of a section number.
 
-**PROFESSOR** – A professor is associated with a section. A professor consists of professor id, professor name, and professor faculty.
+**PROFESSOR**: A professor is associated with a section. A professor consists of professor id, professor name, and professor faculty.
 
-**INSTRUCTOR** – A instructor is associated with a course. A instructor consists of instructor no, instructor name, and instructor faculty.
+**INSTRUCTOR**: A instructor is associated with a course. A instructor consists of instructor no, instructor name, and instructor faculty.
 
 
 Relationships:
@@ -32,8 +32,10 @@ A **INSTRUCTOR** can <ins>teach</ins> one or more **COURSE**, each **COURSE** ca
 
 Assumptions:
 
-Can a **COURSE** exist with zero **STUDENT**? Yes
-Can a **COURSE** exist with zero **STUDENT**? No
-Can a **PROFESSOR** teach zero **COURSE**? No
+Can a **COURSE** exist with zero **STUDENT**? Yes.
+
+Can a **COURSE** exist with zero **STUDENT**? No.
+
+Can a **PROFESSOR** teach zero **COURSE**? No.
 
 [ER_diagram.drawio.xml.zip](https://github.com/LUC-Intro-to-Database-Systems/lab-2-conceptual-modeling-and-er-diagramming-tierneygrabowski/files/9992486/ER_diagram.drawio.xml.zip)
